@@ -78,7 +78,7 @@ function f:PLAYER_REGEN_ENABLED()
 end
 
 function f:PLAYER_REGEN_DISABLED()
-	incombat = false
+	incombat = true
 	f.UpdateCameraRepeatingTimer(f)
 end
 
